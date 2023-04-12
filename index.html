@@ -1,0 +1,142 @@
+<!--LUIS HENRIQUE E VINICIUS 1° INFO-->
+
+
+<html>
+    <head>
+        <title>Cafeteria COFFEE - Home</title>
+
+        <style type="text/css">
+
+             @keyframes gradient {
+                0% {
+		            background-position: 0% 50%;
+	            }
+	            50% {
+		             background-position: 100% 50%;
+	            }
+	            100% {
+		              background-position: 0% 50%;
+	            }   
+               
+               }
+
+            body {
+                background: linear-gradient(120deg, #d69764, #ffcfa8, #ce5d29);
+                background-size: 400% 400%;
+                animation: gradient 15s ease infinite;
+                animation-name: gradient;
+            }
+
+             .bg-image {               
+                background-image: url("../images/cafeteriacoffee.jpeg");
+                filter: blur(10px);
+                -webkit-filter: blur(10px);
+                height: 100%;
+                opacity: 0.3;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+             }
+
+             .cafeteria {
+                border: 9px solid #ff8c56;
+                display: inline-block;
+                position: absolute;
+                top: 100px;
+                left: 10px;
+             }
+             .coffeepng {
+                display: inline-block;
+                position: absolute; 
+                 left:1300px;
+                 top:300px;
+                animation: mexer ease-out;
+                animation-duration: 2s;
+             }
+
+            
+             
+             
+
+             @keyframes mexer {
+                0% {
+                    position: absolute; left: 2500px;
+                }
+                100% {
+                    position: absolute; left: 1300px;
+                }
+             }
+
+             
+
+            h1 {
+                font-family: Tahoma;
+                font-size: 40px;
+                position: absolute;
+                top: 10px;
+                left: 20px;
+            }
+            img {
+                padding: 0px 0px 0px 10px;
+            }
+            h2 {
+                font-family: tahoma;
+                font-size: 30px;
+                padding: 0px 10px 10px 10px;
+                position: absolute;
+                top: 500px;
+                left: 20px;
+            }
+            ul {
+                font-family: sans-serif;
+                padding: 40px 0px 0px 30px;
+                position: absolute;
+                top: 550px;
+                left: 20px;
+            }
+
+            a:link, a:visited {
+              background-color: #ff8c56;
+              color: black;
+              padding: 10px;
+              text-align: center;
+              text-decoration: none;
+              display:  inline-block;
+              border: 2px solid black;
+             
+              
+             }
+
+            a:hover, a:active {
+               background-color: #c0592a;
+             }  
+        
+        </style>
+    </head>
+    <body>
+        <div class="bg-image"></div>
+              
+        <h1>Cafeteria COFFEE</h1>
+        <div class="cafeteria">
+        <img src="../images/cafeteriacoffee.jpeg" alt="Seja Bem-vindo."
+             width="600" height="auto"></div>
+         <h2>Seja bem-vindo.</h2>
+
+        <ul>
+           <li><a href="menu.html"><strong>Menu</strong></a></li>
+           <br>
+           <li><a href="contato.html"><strong>Contato</strong></a></li>
+           <br>
+           <li><a href="sobre.html"><strong>Sobre</strong></a></li>
+           <br>
+        </ul>
+        
+        <div class="coffeepng">
+            <img src="../images/coffeepng.png" alt=""
+            width="500"
+            height="auto">
+        </div>
+
+
+    </body>
+</html>
